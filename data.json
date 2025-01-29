@@ -1,0 +1,93 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "content": "This is the content of my first post."
+    },
+    {
+      "id": 2,
+      "title": "My Second Post",
+      "content": "This is the content of my second post."
+    },
+    {
+      "id": 3,
+      "title": "My Third Post",
+      "content": "This is the content of my third post."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "post_id": 1,
+      "content": "This is a comment on my first post."
+    },
+    {
+      "id": 2,
+      "post_id": 2,
+      "content": "This is a comment on my second post."
+    },
+    {
+      "id": 3,
+      "post_id": 3,
+      "content": "This is a comment on my third post."
+    }
+  ],
+  "profile": {
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+  },
+  "emails": [
+    {
+      "id": 1,
+      "subject": "入场详细信息回复",
+      "content": {
+        "greeting": "お世話になっております！",
+        "apology": "ご連携遅く申し訳ございません。",
+        "status": "現在上位会社と契約書締結中で、2月3日の入場詳細回収中です。",
+        "request": "今週中には、ご連携できるかと存じますので、少々お待ち頂けると幸いです。"
+      },
+      "analysis": {
+        "structure": [
+          {
+            "part": "寒暄语",
+            "japanese": "お世話になっております",
+            "chinese": "承蒙关照",
+            "purpose": "表示礼貌和感谢的开场白"
+          },
+          {
+            "part": "道歉",
+            "japanese": "ご連携遅く申し訳ございません",
+            "chinese": "很抱歉回复延迟",
+            "purpose": "为延迟回复表示歉意"
+          },
+          {
+            "part": "现状说明",
+            "japanese": "現在上位会社と契約書締結中で、2月3日の入場詳細回収中です",
+            "chinese": "目前正在与上级公司签订合同，正在收集2月3日的入场详细信息",
+            "purpose": "说明当前进展情况"
+          },
+          {
+            "part": "请求",
+            "japanese": "今週中には、ご連携できるかと存じますので、少々お待ち頂けると幸いです",
+            "chinese": "预计本周内能够回复，恳请稍等",
+            "purpose": "请求对方理解并等待"
+          }
+        ],
+        "key_points": [
+          "使用了礼貌的商务日语",
+          "包含了道歉、说明和请求三个主要部分",
+          "明确提供了时间预期（本周内）",
+          "整体语气恰当，既显示诚意又保持专业"
+        ],
+        "business_context": {
+          "situation": "入职手续办理",
+          "pending_items": "入场详细信息",
+          "expected_completion": "本周内",
+          "involved_parties": ["上级公司", "发件人", "收件人"]
+        }
+      }
+    }
+  ]
+}
+
