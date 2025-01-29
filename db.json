@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "content": "This is the content of my first post."
+    }
+  ],
+  "emails": [
+    {
+      "id": 1,
+      "subject": "入场详细信息回复",
+      "content": {
+        "greeting": "お世話になっております！",
+        "apology": "ご連携遅く申し訳ございません。",
+        "status": "現在上位会社と契約書締結中で、2月3日の入場詳細回収中です。",
+        "request": "今週中には、ご連携できるかと存じますので、少々お待ち頂けると幸いです。"
+      },
+      "analysis": {
+        "structure": [
+          {
+            "part": "寒暄语",
+            "japanese": "お世話になっております",
+            "chinese": "承蒙关照",
+            "purpose": "表示礼貌和感谢的开场白"
+          },
+          {
+            "part": "道歉",
+            "japanese": "ご連携遅く申し訳ございません",
+            "chinese": "很抱歉回复延迟",
+            "purpose": "为延迟回复表示歉意"
+          }
+        ]
+      }
+    }
+  ]
+} 
